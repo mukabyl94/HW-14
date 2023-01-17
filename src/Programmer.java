@@ -1,4 +1,4 @@
-public class Programmer extends Person{
+public class Programmer extends Person {
     private String companyName;
 
     public Programmer(String name, String designation, String companyName) {
@@ -18,16 +18,27 @@ public class Programmer extends Person{
         this.companyName = companyName;
     }
 
-    public void coding(){
+
+
+    @Override
+    public void learn() {
+        System.out.println(getName() + "азыркы учурда JAVA программалоо тилин уйронуп жатат");
+    }
+
+    @Override
+    public void walk() {
+        System.out.println(getName() + "баласы менен сейилдеп журот");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println(getName() + "кечки тамагын ичип жатат");
+    }
+    public void coding() {
         System.out.println(getName() + " Java код жазат");
     }
-    public void programmerLearn(){
-        super.learn();
-        super.walk();
-        super.eat();
-    }
     @Override
-    public String toString(){
+    public String toString() {
         return "Name: " + getName() + " Deisgnation: " + getDesignation() + " CompanyName: " + companyName;
     }
 }

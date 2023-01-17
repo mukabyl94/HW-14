@@ -26,12 +26,12 @@ public class Person {
         this.designation = designation;
     }
     public void learn(){
-        System.out.println(name + " уйронот");
+
     }
     public void walk(){
-        System.out.println(name + " айланат");
+
     }
     public void eat(){
-        System.out.println(name + " тамактанат");
+
     }
 }

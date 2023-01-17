@@ -17,12 +17,24 @@ public class Dancer extends Person{
     public void setGroupName(String groupName) {
         this.groupName = groupName;
     }
-    public void dancing(){
-        super.learn();
-        super.walk();
-        super.eat();
-        System.out.println(getName() + " бийлейт");
 
+    @Override
+    public void learn() {
+        System.out.println(getName() + "учурд бийдин башка турун уйронуп жатат");
+    }
+
+    @Override
+    public void walk() {
+        System.out.println(getName() + "сейилдеп журот");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println(getName() + "достору менен тамактанууда");
+    }
+
+    public void dancing(){
+        System.out.println(getName() + " бийлейт");
     }
     @Override
     public String toString(){
