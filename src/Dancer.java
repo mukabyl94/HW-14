@@ -20,17 +20,17 @@ public class Dancer extends Person{
 
     @Override
     public void learn() {
-        System.out.println(getName() + "учурд бийдин башка турун уйронуп жатат");
+        System.out.println(getName() + " учурд бийдин башка турун уйронуп жатат");
     }
 
     @Override
     public void walk() {
-        System.out.println(getName() + "сейилдеп журот");
+        System.out.println(getName() + " сейилдеп журот");
     }
 
     @Override
     public void eat() {
-        System.out.println(getName() + "достору менен тамактанууда");
+        System.out.println(getName() + " достору менен тамактанууда");
     }
 
     public void dancing(){

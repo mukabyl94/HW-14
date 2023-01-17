@@ -19,6 +19,9 @@ public class Main {
 
         Singer singer = new Singer("Манас", "ырдайт", "Кыял тобу");
         System.out.println(singer);
+        singer.learn();
+        singer.walk();
+        singer.eat();
         singer.singing();
         singer.playGitar();
     }

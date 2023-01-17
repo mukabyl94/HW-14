@@ -22,17 +22,17 @@ public class Programmer extends Person {
 
     @Override
     public void learn() {
-        System.out.println(getName() + "азыркы учурда JAVA программалоо тилин уйронуп жатат");
+        System.out.println(getName() + " азыркы учурда JAVA программалоо тилин уйронуп жатат");
     }
 
     @Override
     public void walk() {
-        System.out.println(getName() + "баласы менен сейилдеп журот");
+        System.out.println(getName() + " баласы менен сейилдеп журот");
     }
 
     @Override
     public void eat() {
-        System.out.println(getName() + "кечки тамагын ичип жатат");
+        System.out.println(getName() + " кечки тамагын ичип жатат");
     }
     public void coding() {
         System.out.println(getName() + " Java код жазат");

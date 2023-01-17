@@ -19,17 +19,17 @@ public class Singer extends Person {
 
     @Override
     public void learn() {
-        System.out.println(getName() + "учурда балдарды окутуп жатат");
+        System.out.println(getName() + " учурда балдарды окутуп жатат");
     }
 
     @Override
     public void walk() {
-        System.out.println(getName() + "уй булосу менен сейилдеп журот");
+        System.out.println(getName() + " уй булосу менен сейилдеп журот");
     }
 
     @Override
     public void eat() {
-        System.out.println(getName() + "тамактанууда");
+        System.out.println(getName() + " тамактанууда");
     }
 
     public void singing(){
